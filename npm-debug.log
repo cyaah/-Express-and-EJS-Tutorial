@@ -1,0 +1,819 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/vagrant/.nvm/versions/node/v6.9.5/bin/node',
+1 verbose cli   '/home/vagrant/.nvm/versions/node/v6.9.5/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'express',
+1 verbose cli   'ejs' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData express
+8 silly fetchPackageMetaData ejs
+9 silly fetchNamedPackageData express
+10 silly mapToRegistry name express
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'express',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'express',
+13 silly mapToRegistry   name: 'express',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/express
+15 silly fetchNamedPackageData ejs
+16 silly mapToRegistry name ejs
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'ejs',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   escapedName: 'ejs',
+19 silly mapToRegistry   name: 'ejs',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/ejs
+21 verbose request uri https://registry.npmjs.org/express
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 3:22:26 AM
+24 verbose request id 953b721a0632cbac
+25 verbose etag "5a89be95-93f48"
+26 verbose lastModified Sun, 18 Feb 2018 17:57:41 GMT
+27 http request GET https://registry.npmjs.org/express
+28 verbose request uri https://registry.npmjs.org/ejs
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 3:22:26 AM
+31 verbose etag "5a7919d2-120d8"
+32 verbose lastModified Tue, 6 Feb 2018 2:58:26 GMT
+33 http request GET https://registry.npmjs.org/ejs
+34 http 304 https://registry.npmjs.org/ejs
+35 verbose headers { date: 'Mon, 19 Feb 2018 03:22:26 GMT',
+35 verbose headers   via: '1.1 varnish',
+35 verbose headers   'cache-control': 'max-age=300',
+35 verbose headers   etag: '"5a7919d2-120d8"',
+35 verbose headers   age: '6992',
+35 verbose headers   connection: 'keep-alive',
+35 verbose headers   'x-served-by': 'cache-mdw17347-MDW',
+35 verbose headers   'x-cache': 'HIT',
+35 verbose headers   'x-cache-hits': '1',
+35 verbose headers   'x-timer': 'S1519010547.713559,VS0,VE1',
+35 verbose headers   vary: 'Accept-Encoding, Accept' }
+36 silly get cb [ 304,
+36 silly get   { date: 'Mon, 19 Feb 2018 03:22:26 GMT',
+36 silly get     via: '1.1 varnish',
+36 silly get     'cache-control': 'max-age=300',
+36 silly get     etag: '"5a7919d2-120d8"',
+36 silly get     age: '6992',
+36 silly get     connection: 'keep-alive',
+36 silly get     'x-served-by': 'cache-mdw17347-MDW',
+36 silly get     'x-cache': 'HIT',
+36 silly get     'x-cache-hits': '1',
+36 silly get     'x-timer': 'S1519010547.713559,VS0,VE1',
+36 silly get     vary: 'Accept-Encoding, Accept' } ]
+37 verbose etag https://registry.npmjs.org/ejs from cache
+38 verbose get saving ejs to /home/vagrant/.npm/registry.npmjs.org/ejs/.cache.json
+39 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+40 http 200 https://registry.npmjs.org/express
+41 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+41 verbose headers   server: 'UploadServer',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'last-modified': 'Mon, 19 Feb 2018 3:17:34 GMT',
+41 verbose headers   etag: '"5a8a41ce-93f5c"',
+41 verbose headers   'x-npm-region': 'US-Central',
+41 verbose headers   'content-encoding': 'gzip',
+41 verbose headers   'content-length': '48365',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Mon, 19 Feb 2018 03:22:26 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   age: '277',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-mdw17324-MDW',
+41 verbose headers   'x-cache': 'HIT',
+41 verbose headers   'x-cache-hits': '2',
+41 verbose headers   'x-timer': 'S1519010547.712385,VS0,VE0',
+41 verbose headers   vary: 'Accept-Encoding, Accept' }
+42 silly get cb [ 200,
+42 silly get   { 'content-type': 'application/json; charset=UTF-8',
+42 silly get     server: 'UploadServer',
+42 silly get     'cache-control': 'max-age=300',
+42 silly get     'last-modified': 'Mon, 19 Feb 2018 3:17:34 GMT',
+42 silly get     etag: '"5a8a41ce-93f5c"',
+42 silly get     'x-npm-region': 'US-Central',
+42 silly get     'content-encoding': 'gzip',
+42 silly get     'content-length': '48365',
+42 silly get     'accept-ranges': 'bytes',
+42 silly get     date: 'Mon, 19 Feb 2018 03:22:26 GMT',
+42 silly get     via: '1.1 varnish',
+42 silly get     age: '277',
+42 silly get     connection: 'keep-alive',
+42 silly get     'x-served-by': 'cache-mdw17324-MDW',
+42 silly get     'x-cache': 'HIT',
+42 silly get     'x-cache-hits': '2',
+42 silly get     'x-timer': 'S1519010547.712385,VS0,VE0',
+42 silly get     vary: 'Accept-Encoding, Accept' } ]
+43 verbose get saving express to /home/vagrant/.npm/registry.npmjs.org/express/.cache.json
+44 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+45 silly install normalizeTree
+46 silly loadCurrentTree Finishing
+47 silly loadIdealTree Starting
+48 silly install loadIdealTree
+49 silly cloneCurrentTree Starting
+50 silly install cloneCurrentTreeToIdealTree
+51 silly cloneCurrentTree Finishing
+52 silly loadShrinkwrap Starting
+53 silly install loadShrinkwrap
+54 silly loadShrinkwrap Finishing
+55 silly loadAllDepsIntoIdealTree Starting
+56 silly install loadAllDepsIntoIdealTree
+57 silly resolveWithNewModule ejs@2.5.7 checking installable status
+58 silly cache add args [ 'ejs', null ]
+59 verbose cache add spec ejs
+60 silly resolveWithNewModule express@4.16.2 checking installable status
+61 silly cache add args [ 'express', null ]
+62 verbose cache add spec express
+63 silly cache add parsed spec Result {
+63 silly cache add   raw: 'ejs',
+63 silly cache add   scope: null,
+63 silly cache add   escapedName: 'ejs',
+63 silly cache add   name: 'ejs',
+63 silly cache add   rawSpec: '',
+63 silly cache add   spec: 'latest',
+63 silly cache add   type: 'tag' }
+64 silly addNamed ejs@latest
+65 verbose addNamed "latest" is being treated as a dist-tag for ejs
+66 info addNameTag [ 'ejs', 'latest' ]
+67 silly mapToRegistry name ejs
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry data Result {
+70 silly mapToRegistry   raw: 'ejs',
+70 silly mapToRegistry   scope: null,
+70 silly mapToRegistry   escapedName: 'ejs',
+70 silly mapToRegistry   name: 'ejs',
+70 silly mapToRegistry   rawSpec: '',
+70 silly mapToRegistry   spec: 'latest',
+70 silly mapToRegistry   type: 'tag' }
+71 silly mapToRegistry uri https://registry.npmjs.org/ejs
+72 verbose addNameTag registry:https://registry.npmjs.org/ejs not in flight; fetching
+73 silly cache add parsed spec Result {
+73 silly cache add   raw: 'express',
+73 silly cache add   scope: null,
+73 silly cache add   escapedName: 'express',
+73 silly cache add   name: 'express',
+73 silly cache add   rawSpec: '',
+73 silly cache add   spec: 'latest',
+73 silly cache add   type: 'tag' }
+74 silly addNamed express@latest
+75 verbose addNamed "latest" is being treated as a dist-tag for express
+76 info addNameTag [ 'express', 'latest' ]
+77 silly mapToRegistry name express
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry data Result {
+80 silly mapToRegistry   raw: 'express',
+80 silly mapToRegistry   scope: null,
+80 silly mapToRegistry   escapedName: 'express',
+80 silly mapToRegistry   name: 'express',
+80 silly mapToRegistry   rawSpec: '',
+80 silly mapToRegistry   spec: 'latest',
+80 silly mapToRegistry   type: 'tag' }
+81 silly mapToRegistry uri https://registry.npmjs.org/express
+82 verbose addNameTag registry:https://registry.npmjs.org/express not in flight; fetching
+83 verbose get https://registry.npmjs.org/ejs not expired, no request
+84 silly addNameTag next cb for ejs with tag latest
+85 silly addNamed ejs@2.5.7
+86 verbose addNamed "2.5.7" is a plain semver version for ejs
+87 verbose get https://registry.npmjs.org/express not expired, no request
+88 silly addNameTag next cb for express with tag latest
+89 silly addNamed express@4.16.2
+90 verbose addNamed "4.16.2" is a plain semver version for express
+91 silly cache afterAdd ejs@2.5.7
+92 verbose afterAdd /home/vagrant/.npm/ejs/2.5.7/package/package.json not in flight; writing
+93 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+94 silly cache afterAdd express@4.16.2
+95 verbose afterAdd /home/vagrant/.npm/express/4.16.2/package/package.json not in flight; writing
+96 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+97 verbose afterAdd /home/vagrant/.npm/ejs/2.5.7/package/package.json written
+98 verbose afterAdd /home/vagrant/.npm/express/4.16.2/package/package.json written
+99 silly fetchNamedPackageData send
+100 silly mapToRegistry name send
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry data Result {
+103 silly mapToRegistry   raw: 'send',
+103 silly mapToRegistry   scope: null,
+103 silly mapToRegistry   escapedName: 'send',
+103 silly mapToRegistry   name: 'send',
+103 silly mapToRegistry   rawSpec: '',
+103 silly mapToRegistry   spec: 'latest',
+103 silly mapToRegistry   type: 'tag' }
+104 silly mapToRegistry uri https://registry.npmjs.org/send
+105 silly fetchNamedPackageData serve-static
+106 silly mapToRegistry name serve-static
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry data Result {
+109 silly mapToRegistry   raw: 'serve-static',
+109 silly mapToRegistry   scope: null,
+109 silly mapToRegistry   escapedName: 'serve-static',
+109 silly mapToRegistry   name: 'serve-static',
+109 silly mapToRegistry   rawSpec: '',
+109 silly mapToRegistry   spec: 'latest',
+109 silly mapToRegistry   type: 'tag' }
+110 silly mapToRegistry uri https://registry.npmjs.org/serve-static
+111 verbose request uri https://registry.npmjs.org/send
+112 verbose request no auth needed
+113 info attempt registry request try #1 at 3:22:26 AM
+114 verbose etag "5a7b28b3-183d6"
+115 verbose lastModified Wed, 7 Feb 2018 16:26:27 GMT
+116 http request GET https://registry.npmjs.org/send
+117 verbose request uri https://registry.npmjs.org/serve-static
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 3:22:26 AM
+120 verbose etag "5a7e9e60-186dd"
+121 verbose lastModified Sat, 10 Feb 2018 7:25:20 GMT
+122 http request GET https://registry.npmjs.org/serve-static
+123 http 304 https://registry.npmjs.org/serve-static
+124 verbose headers { date: 'Mon, 19 Feb 2018 03:22:26 GMT',
+124 verbose headers   via: '1.1 varnish',
+124 verbose headers   'cache-control': 'max-age=300',
+124 verbose headers   etag: '"5a7e9e60-186dd"',
+124 verbose headers   age: '7827',
+124 verbose headers   connection: 'keep-alive',
+124 verbose headers   'x-served-by': 'cache-mdw17324-MDW',
+124 verbose headers   'x-cache': 'HIT',
+124 verbose headers   'x-cache-hits': '10',
+124 verbose headers   'x-timer': 'S1519010547.909881,VS0,VE0',
+124 verbose headers   vary: 'Accept-Encoding, Accept' }
+125 silly get cb [ 304,
+125 silly get   { date: 'Mon, 19 Feb 2018 03:22:26 GMT',
+125 silly get     via: '1.1 varnish',
+125 silly get     'cache-control': 'max-age=300',
+125 silly get     etag: '"5a7e9e60-186dd"',
+125 silly get     age: '7827',
+125 silly get     connection: 'keep-alive',
+125 silly get     'x-served-by': 'cache-mdw17324-MDW',
+125 silly get     'x-cache': 'HIT',
+125 silly get     'x-cache-hits': '10',
+125 silly get     'x-timer': 'S1519010547.909881,VS0,VE0',
+125 silly get     vary: 'Accept-Encoding, Accept' } ]
+126 verbose etag https://registry.npmjs.org/serve-static from cache
+127 verbose get saving serve-static to /home/vagrant/.npm/registry.npmjs.org/serve-static/.cache.json
+128 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+129 http 304 https://registry.npmjs.org/send
+130 verbose headers { date: 'Mon, 19 Feb 2018 03:22:26 GMT',
+130 verbose headers   via: '1.1 varnish',
+130 verbose headers   'cache-control': 'max-age=300',
+130 verbose headers   etag: '"5a7b28b3-183d6"',
+130 verbose headers   age: '2790',
+130 verbose headers   connection: 'keep-alive',
+130 verbose headers   'x-served-by': 'cache-mdw17347-MDW',
+130 verbose headers   'x-cache': 'HIT',
+130 verbose headers   'x-cache-hits': '12',
+130 verbose headers   'x-timer': 'S1519010547.909833,VS0,VE0',
+130 verbose headers   vary: 'Accept-Encoding, Accept' }
+131 silly get cb [ 304,
+131 silly get   { date: 'Mon, 19 Feb 2018 03:22:26 GMT',
+131 silly get     via: '1.1 varnish',
+131 silly get     'cache-control': 'max-age=300',
+131 silly get     etag: '"5a7b28b3-183d6"',
+131 silly get     age: '2790',
+131 silly get     connection: 'keep-alive',
+131 silly get     'x-served-by': 'cache-mdw17347-MDW',
+131 silly get     'x-cache': 'HIT',
+131 silly get     'x-cache-hits': '12',
+131 silly get     'x-timer': 'S1519010547.909833,VS0,VE0',
+131 silly get     vary: 'Accept-Encoding, Accept' } ]
+132 verbose etag https://registry.npmjs.org/send from cache
+133 verbose get saving send to /home/vagrant/.npm/registry.npmjs.org/send/.cache.json
+134 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+135 silly resolveWithNewModule serve-static@1.13.1 checking installable status
+136 silly cache add args [ 'serve-static@1.13.1', null ]
+137 verbose cache add spec serve-static@1.13.1
+138 silly cache add parsed spec Result {
+138 silly cache add   raw: 'serve-static@1.13.1',
+138 silly cache add   scope: null,
+138 silly cache add   escapedName: 'serve-static',
+138 silly cache add   name: 'serve-static',
+138 silly cache add   rawSpec: '1.13.1',
+138 silly cache add   spec: '1.13.1',
+138 silly cache add   type: 'version' }
+139 silly addNamed serve-static@1.13.1
+140 verbose addNamed "1.13.1" is a plain semver version for serve-static
+141 silly mapToRegistry name serve-static
+142 silly mapToRegistry using default registry
+143 silly mapToRegistry registry https://registry.npmjs.org/
+144 silly mapToRegistry data Result {
+144 silly mapToRegistry   raw: 'serve-static',
+144 silly mapToRegistry   scope: null,
+144 silly mapToRegistry   escapedName: 'serve-static',
+144 silly mapToRegistry   name: 'serve-static',
+144 silly mapToRegistry   rawSpec: '',
+144 silly mapToRegistry   spec: 'latest',
+144 silly mapToRegistry   type: 'tag' }
+145 silly mapToRegistry uri https://registry.npmjs.org/serve-static
+146 verbose addNameVersion registry:https://registry.npmjs.org/serve-static not in flight; fetching
+147 verbose get https://registry.npmjs.org/serve-static not expired, no request
+148 silly resolveWithNewModule send@0.16.1 checking installable status
+149 silly cache add args [ 'send@0.16.1', null ]
+150 verbose cache add spec send@0.16.1
+151 silly cache add parsed spec Result {
+151 silly cache add   raw: 'send@0.16.1',
+151 silly cache add   scope: null,
+151 silly cache add   escapedName: 'send',
+151 silly cache add   name: 'send',
+151 silly cache add   rawSpec: '0.16.1',
+151 silly cache add   spec: '0.16.1',
+151 silly cache add   type: 'version' }
+152 silly addNamed send@0.16.1
+153 verbose addNamed "0.16.1" is a plain semver version for send
+154 silly mapToRegistry name send
+155 silly mapToRegistry using default registry
+156 silly mapToRegistry registry https://registry.npmjs.org/
+157 silly mapToRegistry data Result {
+157 silly mapToRegistry   raw: 'send',
+157 silly mapToRegistry   scope: null,
+157 silly mapToRegistry   escapedName: 'send',
+157 silly mapToRegistry   name: 'send',
+157 silly mapToRegistry   rawSpec: '',
+157 silly mapToRegistry   spec: 'latest',
+157 silly mapToRegistry   type: 'tag' }
+158 silly mapToRegistry uri https://registry.npmjs.org/send
+159 verbose addNameVersion registry:https://registry.npmjs.org/send not in flight; fetching
+160 silly cache afterAdd serve-static@1.13.1
+161 verbose afterAdd /home/vagrant/.npm/serve-static/1.13.1/package/package.json not in flight; writing
+162 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+163 verbose get https://registry.npmjs.org/send not expired, no request
+164 silly cache afterAdd send@0.16.1
+165 verbose afterAdd /home/vagrant/.npm/send/0.16.1/package/package.json not in flight; writing
+166 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+167 verbose afterAdd /home/vagrant/.npm/serve-static/1.13.1/package/package.json written
+168 verbose afterAdd /home/vagrant/.npm/send/0.16.1/package/package.json written
+169 silly fetchNamedPackageData mime
+170 silly mapToRegistry name mime
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry https://registry.npmjs.org/
+173 silly mapToRegistry data Result {
+173 silly mapToRegistry   raw: 'mime',
+173 silly mapToRegistry   scope: null,
+173 silly mapToRegistry   escapedName: 'mime',
+173 silly mapToRegistry   name: 'mime',
+173 silly mapToRegistry   rawSpec: '',
+173 silly mapToRegistry   spec: 'latest',
+173 silly mapToRegistry   type: 'tag' }
+174 silly mapToRegistry uri https://registry.npmjs.org/mime
+175 verbose request uri https://registry.npmjs.org/mime
+176 verbose request no auth needed
+177 info attempt registry request try #1 at 3:22:26 AM
+178 verbose etag "5a7d4a9c-af84"
+179 verbose lastModified Fri, 9 Feb 2018 7:15:40 GMT
+180 http request GET https://registry.npmjs.org/mime
+181 http 304 https://registry.npmjs.org/mime
+182 verbose headers { date: 'Mon, 19 Feb 2018 03:22:27 GMT',
+182 verbose headers   via: '1.1 varnish',
+182 verbose headers   'cache-control': 'max-age=300',
+182 verbose headers   etag: '"5a7d4a9c-af84"',
+182 verbose headers   age: '11907',
+182 verbose headers   connection: 'keep-alive',
+182 verbose headers   'x-served-by': 'cache-mdw17324-MDW',
+182 verbose headers   'x-cache': 'HIT',
+182 verbose headers   'x-cache-hits': '85',
+182 verbose headers   'x-timer': 'S1519010547.140847,VS0,VE0',
+182 verbose headers   vary: 'Accept-Encoding, Accept' }
+183 silly get cb [ 304,
+183 silly get   { date: 'Mon, 19 Feb 2018 03:22:27 GMT',
+183 silly get     via: '1.1 varnish',
+183 silly get     'cache-control': 'max-age=300',
+183 silly get     etag: '"5a7d4a9c-af84"',
+183 silly get     age: '11907',
+183 silly get     connection: 'keep-alive',
+183 silly get     'x-served-by': 'cache-mdw17324-MDW',
+183 silly get     'x-cache': 'HIT',
+183 silly get     'x-cache-hits': '85',
+183 silly get     'x-timer': 'S1519010547.140847,VS0,VE0',
+183 silly get     vary: 'Accept-Encoding, Accept' } ]
+184 verbose etag https://registry.npmjs.org/mime from cache
+185 verbose get saving mime to /home/vagrant/.npm/registry.npmjs.org/mime/.cache.json
+186 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+187 silly resolveWithNewModule mime@1.4.1 checking installable status
+188 silly cache add args [ 'mime@1.4.1', null ]
+189 verbose cache add spec mime@1.4.1
+190 silly cache add parsed spec Result {
+190 silly cache add   raw: 'mime@1.4.1',
+190 silly cache add   scope: null,
+190 silly cache add   escapedName: 'mime',
+190 silly cache add   name: 'mime',
+190 silly cache add   rawSpec: '1.4.1',
+190 silly cache add   spec: '1.4.1',
+190 silly cache add   type: 'version' }
+191 silly addNamed mime@1.4.1
+192 verbose addNamed "1.4.1" is a plain semver version for mime
+193 silly mapToRegistry name mime
+194 silly mapToRegistry using default registry
+195 silly mapToRegistry registry https://registry.npmjs.org/
+196 silly mapToRegistry data Result {
+196 silly mapToRegistry   raw: 'mime',
+196 silly mapToRegistry   scope: null,
+196 silly mapToRegistry   escapedName: 'mime',
+196 silly mapToRegistry   name: 'mime',
+196 silly mapToRegistry   rawSpec: '',
+196 silly mapToRegistry   spec: 'latest',
+196 silly mapToRegistry   type: 'tag' }
+197 silly mapToRegistry uri https://registry.npmjs.org/mime
+198 verbose addNameVersion registry:https://registry.npmjs.org/mime not in flight; fetching
+199 verbose get https://registry.npmjs.org/mime not expired, no request
+200 silly cache afterAdd mime@1.4.1
+201 verbose afterAdd /home/vagrant/.npm/mime/1.4.1/package/package.json not in flight; writing
+202 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+203 verbose afterAdd /home/vagrant/.npm/mime/1.4.1/package/package.json written
+204 silly loadAllDepsIntoIdealTree Finishing
+205 silly loadIdealTree Finishing
+206 silly currentTree node-blog
+206 silly currentTree ├── accepts@1.3.4
+206 silly currentTree ├── array-flatten@1.1.1
+206 silly currentTree ├── body-parser@1.18.2
+206 silly currentTree ├── bytes@3.0.0
+206 silly currentTree ├── content-disposition@0.5.2
+206 silly currentTree ├── content-type@1.0.4
+206 silly currentTree ├── cookie-signature@1.0.6
+206 silly currentTree ├── cookie@0.3.1
+206 silly currentTree ├── debug@2.6.9
+206 silly currentTree ├── depd@1.1.2
+206 silly currentTree ├── destroy@1.0.4
+206 silly currentTree ├── ee-first@1.1.1
+206 silly currentTree ├── ejs@2.5.7
+206 silly currentTree ├── encodeurl@1.0.2
+206 silly currentTree ├── escape-html@1.0.3
+206 silly currentTree ├── etag@1.8.1
+206 silly currentTree ├── finalhandler@1.1.0
+206 silly currentTree ├── forwarded@0.1.2
+206 silly currentTree ├── fresh@0.5.2
+206 silly currentTree ├─┬ http-errors@1.6.2
+206 silly currentTree │ ├── depd@1.1.1
+206 silly currentTree │ └── setprototypeof@1.0.3
+206 silly currentTree ├── iconv-lite@0.4.19
+206 silly currentTree ├── inherits@2.0.3
+206 silly currentTree ├── ipaddr.js@1.5.2
+206 silly currentTree ├── media-typer@0.3.0
+206 silly currentTree ├── merge-descriptors@1.0.1
+206 silly currentTree ├── methods@1.1.2
+206 silly currentTree ├── mime-db@1.33.0
+206 silly currentTree ├── mime-types@2.1.18
+206 silly currentTree ├── ms@2.0.0
+206 silly currentTree ├── negotiator@0.6.1
+206 silly currentTree ├── on-finished@2.3.0
+206 silly currentTree ├── parseurl@1.3.2
+206 silly currentTree ├── path-to-regexp@0.1.7
+206 silly currentTree ├── proxy-addr@2.0.2
+206 silly currentTree ├── qs@6.5.1
+206 silly currentTree ├── range-parser@1.2.0
+206 silly currentTree ├── raw-body@2.3.2
+206 silly currentTree ├── safe-buffer@5.1.1
+206 silly currentTree ├── setprototypeof@1.1.0
+206 silly currentTree ├── statuses@1.3.1
+206 silly currentTree ├── type-is@1.6.16
+206 silly currentTree ├── unpipe@1.0.0
+206 silly currentTree ├── utils-merge@1.0.1
+206 silly currentTree └── vary@1.1.2
+207 silly idealTree node-blog
+207 silly idealTree ├── accepts@1.3.4
+207 silly idealTree ├── array-flatten@1.1.1
+207 silly idealTree ├── body-parser@1.18.2
+207 silly idealTree ├── bytes@3.0.0
+207 silly idealTree ├── content-disposition@0.5.2
+207 silly idealTree ├── content-type@1.0.4
+207 silly idealTree ├── cookie-signature@1.0.6
+207 silly idealTree ├── cookie@0.3.1
+207 silly idealTree ├── debug@2.6.9
+207 silly idealTree ├── depd@1.1.2
+207 silly idealTree ├── destroy@1.0.4
+207 silly idealTree ├── ee-first@1.1.1
+207 silly idealTree ├── ejs@2.5.7
+207 silly idealTree ├── encodeurl@1.0.2
+207 silly idealTree ├── escape-html@1.0.3
+207 silly idealTree ├── etag@1.8.1
+207 silly idealTree ├── express@4.16.2
+207 silly idealTree ├── finalhandler@1.1.0
+207 silly idealTree ├── forwarded@0.1.2
+207 silly idealTree ├── fresh@0.5.2
+207 silly idealTree ├─┬ http-errors@1.6.2
+207 silly idealTree │ ├── depd@1.1.1
+207 silly idealTree │ └── setprototypeof@1.0.3
+207 silly idealTree ├── iconv-lite@0.4.19
+207 silly idealTree ├── inherits@2.0.3
+207 silly idealTree ├── ipaddr.js@1.5.2
+207 silly idealTree ├── media-typer@0.3.0
+207 silly idealTree ├── merge-descriptors@1.0.1
+207 silly idealTree ├── methods@1.1.2
+207 silly idealTree ├── mime-db@1.33.0
+207 silly idealTree ├── mime-types@2.1.18
+207 silly idealTree ├── mime@1.4.1
+207 silly idealTree ├── ms@2.0.0
+207 silly idealTree ├── negotiator@0.6.1
+207 silly idealTree ├── on-finished@2.3.0
+207 silly idealTree ├── parseurl@1.3.2
+207 silly idealTree ├── path-to-regexp@0.1.7
+207 silly idealTree ├── proxy-addr@2.0.2
+207 silly idealTree ├── qs@6.5.1
+207 silly idealTree ├── range-parser@1.2.0
+207 silly idealTree ├── raw-body@2.3.2
+207 silly idealTree ├── safe-buffer@5.1.1
+207 silly idealTree ├── send@0.16.1
+207 silly idealTree ├── serve-static@1.13.1
+207 silly idealTree ├── setprototypeof@1.1.0
+207 silly idealTree ├── statuses@1.3.1
+207 silly idealTree ├── type-is@1.6.16
+207 silly idealTree ├── unpipe@1.0.0
+207 silly idealTree ├── utils-merge@1.0.1
+207 silly idealTree └── vary@1.1.2
+208 silly generateActionsToTake Starting
+209 silly install generateActionsToTake
+210 silly generateActionsToTake Finishing
+211 silly diffTrees action count 5
+212 silly diffTrees add mime@1.4.1
+213 silly diffTrees add send@0.16.1
+214 silly diffTrees update ejs@2.5.7
+215 silly diffTrees add serve-static@1.13.1
+216 silly diffTrees add express@4.16.2
+217 silly decomposeActions action count 41
+218 silly decomposeActions fetch mime@1.4.1
+219 silly decomposeActions extract mime@1.4.1
+220 silly decomposeActions test mime@1.4.1
+221 silly decomposeActions preinstall mime@1.4.1
+222 silly decomposeActions build mime@1.4.1
+223 silly decomposeActions install mime@1.4.1
+224 silly decomposeActions postinstall mime@1.4.1
+225 silly decomposeActions finalize mime@1.4.1
+226 silly decomposeActions fetch send@0.16.1
+227 silly decomposeActions extract send@0.16.1
+228 silly decomposeActions test send@0.16.1
+229 silly decomposeActions preinstall send@0.16.1
+230 silly decomposeActions build send@0.16.1
+231 silly decomposeActions install send@0.16.1
+232 silly decomposeActions postinstall send@0.16.1
+233 silly decomposeActions finalize send@0.16.1
+234 silly decomposeActions remove ejs@2.5.7
+235 silly decomposeActions fetch ejs@2.5.7
+236 silly decomposeActions extract ejs@2.5.7
+237 silly decomposeActions test ejs@2.5.7
+238 silly decomposeActions preinstall ejs@2.5.7
+239 silly decomposeActions build ejs@2.5.7
+240 silly decomposeActions install ejs@2.5.7
+241 silly decomposeActions postinstall ejs@2.5.7
+242 silly decomposeActions finalize ejs@2.5.7
+243 silly decomposeActions fetch serve-static@1.13.1
+244 silly decomposeActions extract serve-static@1.13.1
+245 silly decomposeActions test serve-static@1.13.1
+246 silly decomposeActions preinstall serve-static@1.13.1
+247 silly decomposeActions build serve-static@1.13.1
+248 silly decomposeActions install serve-static@1.13.1
+249 silly decomposeActions postinstall serve-static@1.13.1
+250 silly decomposeActions finalize serve-static@1.13.1
+251 silly decomposeActions fetch express@4.16.2
+252 silly decomposeActions extract express@4.16.2
+253 silly decomposeActions test express@4.16.2
+254 silly decomposeActions preinstall express@4.16.2
+255 silly decomposeActions build express@4.16.2
+256 silly decomposeActions install express@4.16.2
+257 silly decomposeActions postinstall express@4.16.2
+258 silly decomposeActions finalize express@4.16.2
+259 silly runTopLevelLifecycles Starting
+260 silly executeActions Starting
+261 silly install executeActions
+262 silly doSerial global-install 0
+263 silly doParallel fetch 5
+264 verbose correctMkdir /home/vagrant/.npm/_locks correctMkdir not in flight; initializing
+265 verbose lock using /home/vagrant/.npm/_locks/staging-7d20a143d0399d43.lock for /vagrant/d/node-blog/node_modules/.staging
+266 silly doParallel extract 5
+267 silly extract mime@1.4.1
+268 silly extract send@0.16.1
+269 silly extract ejs@2.5.7
+270 silly extract serve-static@1.13.1
+271 silly extract express@4.16.2
+272 verbose unbuild node_modules/.staging/send-b821f085
+273 verbose unbuild node_modules/.staging/ejs-43fd11e7
+274 verbose unbuild node_modules/.staging/serve-static-b4f80ba6
+275 verbose unbuild node_modules/.staging/express-712f6c85
+276 verbose unbuild node_modules/.staging/mime-e099971b
+277 silly gentlyRm /vagrant/d/node-blog/node_modules/.staging/send-b821f085 is being purged from base /vagrant/d/node-blog
+278 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.staging/send-b821f085
+279 silly gentlyRm /vagrant/d/node-blog/node_modules/.staging/serve-static-b4f80ba6 is being purged from base /vagrant/d/node-blog
+280 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.staging/serve-static-b4f80ba6
+281 silly gentlyRm /vagrant/d/node-blog/node_modules/.staging/ejs-43fd11e7 is being purged from base /vagrant/d/node-blog
+282 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.staging/ejs-43fd11e7
+283 silly gentlyRm /vagrant/d/node-blog/node_modules/.staging/express-712f6c85 is being purged from base /vagrant/d/node-blog
+284 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.staging/express-712f6c85
+285 silly gentlyRm /vagrant/d/node-blog/node_modules/.staging/mime-e099971b is being purged from base /vagrant/d/node-blog
+286 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.staging/mime-e099971b
+287 verbose tar unpack /home/vagrant/.npm/send/0.16.1/package.tgz
+288 verbose tar unpacking to /vagrant/d/node-blog/node_modules/.staging/send-b821f085
+289 silly gentlyRm /vagrant/d/node-blog/node_modules/.staging/send-b821f085 is being purged
+290 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.staging/send-b821f085
+291 verbose tar unpack /home/vagrant/.npm/serve-static/1.13.1/package.tgz
+292 verbose tar unpacking to /vagrant/d/node-blog/node_modules/.staging/serve-static-b4f80ba6
+293 silly gentlyRm /vagrant/d/node-blog/node_modules/.staging/serve-static-b4f80ba6 is being purged
+294 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.staging/serve-static-b4f80ba6
+295 verbose tar unpack /home/vagrant/.npm/ejs/2.5.7/package.tgz
+296 verbose tar unpacking to /vagrant/d/node-blog/node_modules/.staging/ejs-43fd11e7
+297 silly gentlyRm /vagrant/d/node-blog/node_modules/.staging/ejs-43fd11e7 is being purged
+298 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.staging/ejs-43fd11e7
+299 verbose tar unpack /home/vagrant/.npm/express/4.16.2/package.tgz
+300 verbose tar unpacking to /vagrant/d/node-blog/node_modules/.staging/express-712f6c85
+301 silly gentlyRm /vagrant/d/node-blog/node_modules/.staging/express-712f6c85 is being purged
+302 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.staging/express-712f6c85
+303 verbose tar unpack /home/vagrant/.npm/mime/1.4.1/package.tgz
+304 verbose tar unpacking to /vagrant/d/node-blog/node_modules/.staging/mime-e099971b
+305 silly gentlyRm /vagrant/d/node-blog/node_modules/.staging/mime-e099971b is being purged
+306 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.staging/mime-e099971b
+307 silly gunzTarPerm modes [ '775', '664' ]
+308 silly gunzTarPerm modes [ '775', '664' ]
+309 silly gunzTarPerm modes [ '775', '664' ]
+310 silly gunzTarPerm modes [ '775', '664' ]
+311 silly gunzTarPerm modes [ '775', '664' ]
+312 silly gunzTarPerm extractEntry package.json
+313 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+314 silly gunzTarPerm extractEntry
+315 silly gunzTarPerm modified mode [ '', 493, 509 ]
+316 silly gunzTarPerm extractEntry package.json
+317 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+318 silly gunzTarPerm extractEntry package.json
+319 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+320 silly gunzTarPerm extractEntry package.json
+321 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+322 silly gunzTarPerm extractEntry README.md
+323 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+324 silly gunzTarPerm extractEntry LICENSE
+325 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+326 silly gunzTarPerm extractEntry index.js
+327 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+328 silly gunzTarPerm extractEntry HISTORY.md
+329 silly gunzTarPerm modified mode [ 'HISTORY.md', 420, 436 ]
+330 silly gunzTarPerm extractEntry LICENSE
+331 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+332 silly gunzTarPerm extractEntry index.js
+333 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+334 silly gunzTarPerm extractEntry README.md
+335 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+336 silly gunzTarPerm extractEntry LICENSE
+337 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+338 silly gunzTarPerm extractEntry index.js
+339 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+340 silly gunzTarPerm extractEntry HISTORY.md
+341 silly gunzTarPerm modified mode [ 'HISTORY.md', 420, 436 ]
+342 silly gunzTarPerm extractEntry ejs.js
+343 silly gunzTarPerm modified mode [ 'ejs.js', 420, 436 ]
+344 silly gunzTarPerm extractEntry ejs.min.js
+345 silly gunzTarPerm modified mode [ 'ejs.min.js', 420, 436 ]
+346 silly gunzTarPerm extractEntry cli.js
+347 silly gunzTarPerm modified mode [ 'cli.js', 420, 436 ]
+348 silly gunzTarPerm extractEntry LICENSE
+349 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+350 silly gunzTarPerm extractEntry Jakefile
+351 silly gunzTarPerm modified mode [ 'Jakefile', 420, 436 ]
+352 silly gunzTarPerm extractEntry lib/
+353 silly gunzTarPerm modified mode [ 'lib/', 493, 509 ]
+354 silly gunzTarPerm extractEntry LICENSE
+355 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+356 silly gunzTarPerm extractEntry package.json
+357 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+358 silly gunzTarPerm extractEntry Readme.md
+359 silly gunzTarPerm modified mode [ 'Readme.md', 438, 436 ]
+360 silly gunzTarPerm extractEntry History.md
+361 silly gunzTarPerm modified mode [ 'History.md', 438, 436 ]
+362 silly gunzTarPerm extractEntry mime.js
+363 silly gunzTarPerm modified mode [ 'mime.js', 420, 436 ]
+364 silly gunzTarPerm extractEntry README.md
+365 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+366 silly gunzTarPerm extractEntry README.md
+367 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+368 silly gunzTarPerm extractEntry types.json
+369 silly gunzTarPerm modified mode [ 'types.json', 420, 436 ]
+370 silly gunzTarPerm extractEntry build/build.js
+371 silly gunzTarPerm modified mode [ 'build/build.js', 420, 436 ]
+372 silly gunzTarPerm extractEntry build/test.js
+373 silly gunzTarPerm modified mode [ 'build/test.js', 420, 436 ]
+374 silly gunzTarPerm extractEntry lib/application.js
+375 silly gunzTarPerm modified mode [ 'lib/application.js', 438, 436 ]
+376 silly gunzTarPerm extractEntry lib/ejs.js
+377 silly gunzTarPerm modified mode [ 'lib/ejs.js', 420, 436 ]
+378 silly gunzTarPerm extractEntry lib/utils.js
+379 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 436 ]
+380 silly gunzTarPerm extractEntry lib/express.js
+381 silly gunzTarPerm modified mode [ 'lib/express.js', 438, 436 ]
+382 silly gunzTarPerm extractEntry lib/request.js
+383 silly gunzTarPerm modified mode [ 'lib/request.js', 438, 436 ]
+384 silly gunzTarPerm extractEntry lib/response.js
+385 silly gunzTarPerm modified mode [ 'lib/response.js', 438, 436 ]
+386 silly gunzTarPerm extractEntry lib/utils.js
+387 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 436 ]
+388 silly gunzTarPerm extractEntry lib/view.js
+389 silly gunzTarPerm modified mode [ 'lib/view.js', 438, 436 ]
+390 silly gunzTarPerm extractEntry lib/middleware/init.js
+391 silly gunzTarPerm modified mode [ 'lib/middleware/init.js', 438, 436 ]
+392 silly gunzTarPerm extractEntry lib/middleware/query.js
+393 silly gunzTarPerm modified mode [ 'lib/middleware/query.js', 438, 436 ]
+394 silly gunzTarPerm extractEntry lib/router/index.js
+395 silly gunzTarPerm modified mode [ 'lib/router/index.js', 438, 436 ]
+396 silly gunzTarPerm extractEntry lib/router/layer.js
+397 silly gunzTarPerm modified mode [ 'lib/router/layer.js', 438, 436 ]
+398 silly gunzTarPerm extractEntry lib/router/route.js
+399 silly gunzTarPerm modified mode [ 'lib/router/route.js', 438, 436 ]
+400 silly gentlyRm /vagrant/d/node-blog/node_modules/.staging/serve-static-b4f80ba6/node_modules is being purged
+401 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.staging/serve-static-b4f80ba6/node_modules
+402 silly gentlyRm /vagrant/d/node-blog/node_modules/.staging/send-b821f085/node_modules is being purged
+403 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.staging/send-b821f085/node_modules
+404 silly gentlyRm /vagrant/d/node-blog/node_modules/.staging/mime-e099971b/node_modules is being purged
+405 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.staging/mime-e099971b/node_modules
+406 silly gentlyRm /vagrant/d/node-blog/node_modules/.staging/ejs-43fd11e7/node_modules is being purged
+407 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.staging/ejs-43fd11e7/node_modules
+408 silly gentlyRm /vagrant/d/node-blog/node_modules/.staging/express-712f6c85/node_modules is being purged
+409 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.staging/express-712f6c85/node_modules
+410 silly doParallel preinstall 5
+411 silly preinstall mime@1.4.1 /vagrant/d/node-blog/node_modules/.staging/mime-e099971b
+412 info lifecycle mime@1.4.1~preinstall: mime@1.4.1
+413 silly preinstall send@0.16.1 /vagrant/d/node-blog/node_modules/.staging/send-b821f085
+414 info lifecycle send@0.16.1~preinstall: send@0.16.1
+415 silly preinstall ejs@2.5.7 /vagrant/d/node-blog/node_modules/.staging/ejs-43fd11e7
+416 info lifecycle ejs@2.5.7~preinstall: ejs@2.5.7
+417 silly preinstall serve-static@1.13.1 /vagrant/d/node-blog/node_modules/.staging/serve-static-b4f80ba6
+418 info lifecycle serve-static@1.13.1~preinstall: serve-static@1.13.1
+419 silly preinstall express@4.16.2 /vagrant/d/node-blog/node_modules/.staging/express-712f6c85
+420 info lifecycle express@4.16.2~preinstall: express@4.16.2
+421 silly lifecycle send@0.16.1~preinstall: no script for preinstall, continuing
+422 silly lifecycle mime@1.4.1~preinstall: no script for preinstall, continuing
+423 silly lifecycle ejs@2.5.7~preinstall: no script for preinstall, continuing
+424 silly lifecycle serve-static@1.13.1~preinstall: no script for preinstall, continuing
+425 silly lifecycle express@4.16.2~preinstall: no script for preinstall, continuing
+426 silly doReverseSerial remove 1
+427 silly remove /vagrant/d/node-blog/node_modules/ejs
+428 verbose unbuild node_modules/ejs
+429 info lifecycle ejs@2.5.7~preuninstall: ejs@2.5.7
+430 silly lifecycle ejs@2.5.7~preuninstall: no script for preuninstall, continuing
+431 info lifecycle ejs@2.5.7~uninstall: ejs@2.5.7
+432 silly lifecycle ejs@2.5.7~uninstall: no script for uninstall, continuing
+433 verbose unbuild rmStuff ejs@2.5.7 from /vagrant/d/node-blog/node_modules
+434 info lifecycle ejs@2.5.7~postuninstall: ejs@2.5.7
+435 silly lifecycle ejs@2.5.7~postuninstall: no script for postuninstall, continuing
+436 silly gentlyRm /vagrant/d/node-blog/node_modules/ejs is being purged from base /vagrant/d/node-blog
+437 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/ejs
+438 silly vacuum-fs purging /vagrant/d/node-blog/node_modules/ejs
+439 silly vacuum-fs quitting because other entries in /vagrant/d/node-blog/node_modules
+440 silly doSerial move 0
+441 silly doSerial finalize 5
+442 silly finalize /vagrant/d/node-blog/node_modules/mime
+443 silly finalize /vagrant/d/node-blog/node_modules/send
+444 silly finalize /vagrant/d/node-blog/node_modules/ejs
+445 silly finalize /vagrant/d/node-blog/node_modules/serve-static
+446 silly finalize /vagrant/d/node-blog/node_modules/express
+447 silly doSerial build 5
+448 silly build mime@1.4.1
+449 info linkStuff mime@1.4.1
+450 silly linkStuff mime@1.4.1 has /vagrant/d/node-blog/node_modules as its parent node_modules
+451 verbose linkBins mime@1.4.1
+452 verbose link bins [ { mime: 'cli.js' },
+452 verbose link bins   '/vagrant/d/node-blog/node_modules/.bin',
+452 verbose link bins   false ]
+453 verbose linkMans mime@1.4.1
+454 silly gentlyRm /vagrant/d/node-blog/node_modules/.bin/mime is being purged
+455 verbose gentlyRm don't care about contents; nuking /vagrant/d/node-blog/node_modules/.bin/mime
+456 verbose unlock done using /home/vagrant/.npm/_locks/staging-7d20a143d0399d43.lock for /vagrant/d/node-blog/node_modules/.staging
+457 silly rollbackFailedOptional Starting
+458 silly rollbackFailedOptional Finishing
+459 silly runTopLevelLifecycles Finishing
+460 silly install printInstalled
+461 warn enoent ENOENT: no such file or directory, open '/vagrant/d/node-blog/package.json'
+462 verbose enoent ENOENT: no such file or directory, open '/vagrant/d/node-blog/package.json'
+462 verbose enoent This is most likely not a problem with npm itself
+462 verbose enoent and is related to npm not being able to find a file.
+463 warn node-blog No description
+464 verbose If you need help, you may report this error at:
+464 verbose     <https://github.com/npm/npm/issues>
+465 warn node-blog No repository field.
+466 verbose If you need help, you may report this error at:
+466 verbose     <https://github.com/npm/npm/issues>
+467 warn node-blog No README data
+468 verbose If you need help, you may report this error at:
+468 verbose     <https://github.com/npm/npm/issues>
+469 warn node-blog No license field.
+470 verbose If you need help, you may report this error at:
+470 verbose     <https://github.com/npm/npm/issues>
+471 verbose stack Error: EPROTO: protocol error, symlink '../mime/cli.js' -> '/vagrant/d/node-blog/node_modules/.bin/mime'
+471 verbose stack     at Error (native)
+472 verbose cwd /vagrant/d/node-blog
+473 error Linux 4.4.0-21-generic
+474 error argv "/home/vagrant/.nvm/versions/node/v6.9.5/bin/node" "/home/vagrant/.nvm/versions/node/v6.9.5/bin/npm" "install" "--save" "express" "ejs"
+475 error node v6.9.5
+476 error npm  v3.10.10
+477 error path ../mime/cli.js
+478 error code EPROTO
+479 error errno -71
+480 error syscall symlink
+481 error EPROTO: protocol error, symlink '../mime/cli.js' -> '/vagrant/d/node-blog/node_modules/.bin/mime'
+482 error If you need help, you may report this error at:
+482 error     <https://github.com/npm/npm/issues>
+483 verbose exit [ -71, true ]
